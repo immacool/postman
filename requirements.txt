@@ -1,0 +1,4 @@
+colorama~=0.4.3
+click~=7.1.2
+requests~=2.23.0
+bs4
