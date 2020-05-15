@@ -3,9 +3,11 @@ import re
 import bs4
 import click
 import requests
-from colorama import Fore
+from colorama import Fore, init
 from requests.exceptions import MissingSchema
 from json import dump
+
+init()
 
 BANNER = f'''
 {Fore.RED}██████╗  ██████╗ ███████╗████████╗{Fore.BLUE}███╗   ███╗ █████╗ ███╗   ██╗
